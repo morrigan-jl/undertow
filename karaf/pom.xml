@@ -35,7 +35,7 @@
     <packaging>pom</packaging>
 
     <properties>
-        <version.karaf.plugin>4.4.1</version.karaf.plugin>
+        <version.karaf.plugin>4.4.6</version.karaf.plugin>
     </properties>
 
     <dependencies>
