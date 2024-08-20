@@ -64,7 +64,7 @@
         <version.easymock>4.3</version.easymock>
         <version.jakarta.annotation.jakarta-annotation-api>2.1.1</version.jakarta.annotation.jakarta-annotation-api>
         <version.jakarta.servlet.jakarta-servlet-api>6.0.0</version.jakarta.servlet.jakarta-servlet-api>
-        <version.jakarta.websocket.jakarta-websocket-api>2.1.0</version.jakarta.websocket.jakarta-websocket-api>
+        <version.jakarta.websocket.jakarta-websocket-api>2.2.0</version.jakarta.websocket.jakarta-websocket-api>
         <version.junit>4.13.2</version.junit>
         <version.netty>4.1.82.Final</version.netty>
         <version.org.apache.directory.server>2.0.0.AM26</version.org.apache.directory.server>
@@ -81,13 +81,13 @@
 
         <!-- jacoco -->
         <version.org.jacoco>0.7.9</version.org.jacoco>
-        <jacoco.agent.argLine></jacoco.agent.argLine>
+        <jacoco.agent.argLine/>
 
         <!-- Spotbugs properties -->
         <spotbugs.exclude.filter.file>../spotbugs-exclude.xml</spotbugs.exclude.filter.file>
 
         <!-- Surefire args -->
-        <modular.jdk.props></modular.jdk.props>
+        <modular.jdk.props/>
         <surefire.jpda.args/>
         <surefire.system.args>-ea ${surefire.jpda.args} -Xmx1024m ${modular.jdk.props}</surefire.system.args>
         <!--by default run all tests-->
@@ -285,7 +285,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore></ignore>
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
